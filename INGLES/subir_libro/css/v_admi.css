@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background:#192E40;
+}
+
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+.panel-it{
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel-it a{
+    
+    text-decoration: none;
+    color: #F3F6FF;
+    font-size: 16px;
+}
+
+#items{
+    padding: 35px 35px;
+    padding-right: 35px;
+}
+
+#items1{
+    padding-top: 50px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+#items img{
+    
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+article a:hover{
+    color: #De3448;
+    transition: all 700ms ease-out;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel-it  #items i{
+    font-size: 45px;
+    filter: invert(1);
+    color: rgb(0, 0, 0);
+}
+
+.panel-it  i:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+header h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+table{
+    margin: 2vw 2vw;
+    padding: 1vw 1vw;
+    background: #121212;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+                5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+table .titulos{
+    flex-direction: row;
+    border: none;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1vh 1vh;
+    background: crimson;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+fieldset{
+    border: none;
+}
+
+
+ .inputBox2 input{
+    width: 10vw;
+    height:20px;
+    background: #dbd9d0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    color: #000;
+}
+
+
+.inputBox2 [type="submit"] {
+    margin-top: 12px;
+    margin-bottom: 3px;
+    height: 40px;
+    background: #131419;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+                2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.inputBox2 [type="submit"]:hover {
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8),
+    inset -2px -2px 10px rgba(255, 255, 255, 0.05),
+    inset 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+table .cuerpo{
+    background: darkgray;
+    border-radius: 2px;
+    padding: 1vh 1vh;
+}

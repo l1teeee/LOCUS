@@ -1,0 +1,18 @@
+table{
+    align-self: center;
+    align-content:center;
+}
+
+table td{
+   margin: 0;
+    border: 2px black solid;
+}
+
+table th{
+    margin: 0;
+    border: 2px black solid;
+
+}
+h1{
+    text-align: center;
+}

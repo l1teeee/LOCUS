@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #212B38;
+}
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5vh 1.5vh;
+    
+}
+.panel-it{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.panel-it a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.menu img{
+    
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+article{
+    padding: 35px 35px;
+}
+
+
+
+article a:hover{
+    opacity: 0.30;
+    transition: 0.9s;
+}
+
+
+
+.menu img:hover{
+    opacity: 0.30;
+    transition: 0.9s;
+    
+}
+
+
+
+
+/*----------------------LIBRO------------------------- */
+
+iframe{
+    align-items: center;
+    width: 850px;
+    height: 500px;
+    border: 1px;
+
+}
+
+#contenido{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.conten{
+    color: #ffffff;
+    
+}
+
+.conten .titulo{
+    font-family: Ink Free;
+    font-size: 35px;
+}
+
+.conten .descripcion{
+    font-family: Bahnschrift SemiLight Condensed;
+    font-size: 20px;
+}

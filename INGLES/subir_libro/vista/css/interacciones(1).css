@@ -1,0 +1,4 @@
+.like, .dislike{
+    display: grid;
+    place-items: center;
+}

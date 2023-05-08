@@ -1,0 +1,42 @@
+body {
+    background-color: #04CCAB;
+}
+
+.contenedor{
+    width: 1200px;
+    height: 200px;
+    background: #04CCAB;
+    padding: 10px;
+    border: 10px solid #04CCAB;
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.elemento{
+    color: #fff;
+    margin: 5px;
+    /*width: 50px;*/ 
+    background: #04CCAB;
+    text-align: center;
+    
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+
+}
+
+
+
+
+iframe{
+    width: 850px;
+    height: 500px;
+    border: 1px;
+    position: absolute;
+    left: 255px;
+    top: 147px;
+}

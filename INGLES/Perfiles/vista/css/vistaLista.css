@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+
+}
+
+.cuerpo{
+    background-color:#1E212D;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*    INICIO PANEL SUPERIOR       */
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #11111127;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.panel-it{
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel-it a{
+    
+    text-decoration: none;
+    color: #F3F6FF;
+    font-size: 16px;
+}
+
+#items{
+    padding: 35px 35px;
+    padding-right: 35px;
+}
+
+#items1{
+    padding-top: 50px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+
+
+
+#items img{
+    
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+article a:hover{
+    color: #De3448;
+    transition: all 700ms ease-out;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel-it  #items i{
+    font-size: 45px;
+    filter: invert(1);
+    color: rgb(0, 0, 0);
+}
+
+.panel-it  i:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+header h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*             FIN DEL PANEL SUPERIOR                 */
+
+/*-----------------------------------------------------------------------*/
+
+.form{
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: #f2b035f5;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 35%;
+
+    margin-top: 11%;
+    border-radius: 15px;
+    padding:40px 40px 40px 40px;
+}
+
+.form .input{
+    margin-top:2vw;
+    margin-bottom:1vw;
+
+}
+
+.form .inputBox{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.form .inputBox1{
+    margin-top: 7%;
+    margin-left: 37%;
+    margin-right: 30%;
+
+}
+
+.form .inputBox1 input{
+    padding-left: 9px;
+
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 14px;
+    border: none;
+    color: #F3F6FF;
+    font-size: 18px;
+    background-color: #1E212D;
+}

@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background:url('varias/Categorias.jpg') no-repeat center center;
+    min-height:100%;
+    min-width: 100%;
+
+    background-size:cover;
+    background-attachment: scroll;
+}
+
+.contenedor{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.fondo img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.60;
+    flex: 1 1 100%;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header .boton{
+    color: #c7c7c7;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ff0047 ;
+    text-shadow: 0 0 5px #ff0047 ,
+                 0 0 350px #ff0047 ;
+}
+
+header h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header .boton:hover{
+    opacity: 0.50;
+}
+
+.cate{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.cate a img{
+    -webkit-transition: all 0.6s ease;
+
+    width: 350px;
+    height: 235px;
+    border-radius: 15%;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: center;
+
+    flex: 1 1 100%;
+}
+
+
+
+.cate a img:hover {
+    -webkit-transform: scale(1.10);
+    opacity: 0.70;
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+        
+    }
+    
+}
+
+/*--------------------------------Responsive------------------------------------*/
+
+
+
+
+
+/*
+body{
+    background-color: #131419;
+}
+
+div .fondo img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0;
+    opacity: 0.60;
+}
+
+.fondo{
+    opacity: 15;
+}
+
+.banner header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    padding: 40px 100px;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    font-family: Lucida Handwriting;
+    z-index: 10000;
+}
+
+.banner header .logo{
+    color: #c7c7c7;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ff0047 ;
+    text-shadow: 0 0 5px #ff0047 ,
+                 0 0 350px #ff0047 ;
+}
+
+.banner header .logo:hover{
+    
+    opacity: 0.25;
+}
+
+.banner header .ico{
+    color: #c7c7c7;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ff0047 ;
+    text-shadow: 0 0 5px #ff0047 ,
+                 0 0 350px #ff0047 ;
+    
+}
+
+.banner header .ico:hover{
+    
+    opacity: 0.25;
+}*/
+/*------------------------SELECCIÓN---------------------------*/
+
+/*
+.cate{
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.imgd{
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    display: inline-block;
+    position: relative;
+    margin-left: 85px;
+    margin-top: 25px;
+    width: 350px;
+    height: 235px;
+    opacity: 0.75;
+    border-radius: 25px;
+}
+
+.imgd:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    opacity: 1;
+    box-shadow: 0 0 15px #fff;
+}
+
+.desmo2{
+    margin-top: 80px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 430px;
+    margin-left: 130px;
+}
+
+.imgd2{
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    display: inline-block;
+    position: relative;
+    margin-left: 200px;
+    width: 350px;
+    height: 235px;
+    opacity: 0.75;
+    border-radius: 25px;
+}
+
+.imgd2:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    opacity: 1;
+    box-shadow: 0 0 15px #fff;
+}
+
+.desmo3{
+    margin-top: 80px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 360px;
+    height: 430px;
+    margin-left: 0px;
+}
+
+.imgd3{
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    display: inline-block;
+    position: relative;
+    margin-left: 57px;
+    width: 350px;
+    height: 235px;
+    opacity: 0.75;
+    border-radius: 25px;
+}
+
+.imgd3:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    opacity: 1;
+    box-shadow: 0 0 15px #fff;
+}
+*/

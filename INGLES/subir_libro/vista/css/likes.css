@@ -1,0 +1,57 @@
+.imgBx img{
+    position: absolute;
+    height: 100%;
+    width: 50%; 
+}
+
+.likes{
+    position: absolute;
+    top: 170%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 50px;
+    background: #fff;
+    border-radius: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 30px;
+    color: #262626;
+    transition: 0.5s;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    
+}
+
+.likes img{
+    width: 50px;
+    height: 35px;
+    position: relative;
+    bottom: 4px;
+
+    -webkit-transition: all 0.9s ease; 
+    -moz-transition: all 0.9s ease; 
+    -o-transition: all 0.9s ease; 
+    -ms-transition: all 0.9s ease;
+    
+
+    
+}
+
+.likes img:hover{
+    opacity: 1.4;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+}
+
+.contenedor_likes p{
+    color: white;
+    font-family: Agency FB;
+    position: absolute;
+    top: 174%;
+    left: 75%;
+    font-size: 23px;
+}

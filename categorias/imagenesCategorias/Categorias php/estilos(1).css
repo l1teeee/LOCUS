@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(236, 236, 236);
+}
+
+body{
+    background-color: #212B58;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 100%;
+    margin: auto;
+}
+
+/*-----------Header--------------*/
+
+header{
+    width: 100%;
+    padding: 10px;
+    background-color: #37465B;
+
+    /*------------FLEX-----------*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+.boton{
+    color: #c7c7c7;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #04C6AB ;
+    font-family: Arial, Helvetica, sans-serif;;
+    text-shadow: 0 0 5px #04C6AB ,
+                 0 0 350px #04C6AB ;
+}
+
+header h1{
+    color: rgb(236, 236, 236);
+    font-size: 40px;
+    font-family:Lucida Handwriting;
+    font-style: bold;
+}
+
+
+/*----------Definicion-------------*/
+
+.def{
+
+    color: rgb(236, 236, 236);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    font-size: 24px;
+    text-align: justify;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 1 100%;
+}
+
+.famosos{
+    width: 100%;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.famosos h1{
+    color: #ee8905;
+}
+
+/*--------------------SLIDER-----------------------*/
+
+.container-slider{
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    height: 100%;
+    margin-left: -100%;
+}
+
+.slider_section{
+ width: 100%;
+}
+
+.slider_img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider_btn{
+    color: #000;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.slider_btn:hover{
+background-color: #fff;
+transition: 0.6s;
+}
+
+.slider_btn-left{
+    left: 0;
+}
+
+.slider_btn-right{
+    right: 0px;
+}
+
+/*---------------------Famosos-----------------------*/
+
+.intro{
+    width: 100%;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.intro h1{
+    color: #ee8905;
+}
+
+.fav{
+    width: 100%;
+    margin: auto;   
+    padding: 15px;
+
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.widget{
+    flex-flow: row wrap;
+    flex-shrink: 1;
+    
+    width: 300px;
+    height: 400px;
+    border-radius: 15%;
+    background-color: #726EFF;
+
+}
+
+.widget .imagen{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+    width: 200px;
+    height: 300px;
+    border-radius: 15%;
+    background-color: #4f49fc;
+}
+
+.widget p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    justify-content: center;
+    flex: 1 1 100%;
+}
+
+footer p{
+    background: #323233 ;
+    text-align: center;
+    padding: 20px 10px;
+    color: #C7C7C7;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:900px) {
+    .fav{
+        flex-direction: column;
+        
+    }
+
+    .widget{
+        margin-top: 15px;
+        
+    }
+
+    .boton{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-slider{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .def{
+        font-size: 20px;
+    }
+    
+    .container-slider{
+        width: 100%;
+        height: 300px;
+    }
+}

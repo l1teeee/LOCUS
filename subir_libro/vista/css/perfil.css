@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1E212D;
+}
+
+
+#items{
+  padding: 35px 35px;
+  padding-right: 35px;
+}
+
+#items1{
+  padding-top: 50px;
+  padding-left: 5rem;
+  padding-right: 3rem;
+}
+
+
+
+
+#items img{
+  
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+article a{
+  text-decoration: none;
+  color: #fff;
+}
+.menu{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+/*----------------CUERPO------------*/
+
+.publicas{
+  background: rgba( 255, 255, 255, 0.80 );
+backdrop-filter: blur( 0.0px );
+-webkit-backdrop-filter: blur( 0.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 2vw 2vw 2vw 2vw;
+  min-width: 350px;
+  margin-left:32vw; 
+  margin-right: 5vw;
+}
+
+.titu{
+  justify-content: center;
+  padding-bottom: 12px;
+  font-size: 17px;
+}
+
+.linea{
+  margin-top: 10px;
+  background: rgba( 0, 0, 0, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.0px );
+-webkit-backdrop-filter: blur( 4.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 100%;
+  height: 2px;
+}
+
+.libro{
+  position: static;
+  background-color: #47507477;
+  margin-top: 10px;
+  width: 100%;
+  border: 15px;
+  height: 30vw;
+  border-radius: 5px;
+}
+
+#port{
+  position: absolute;
+  margin-right: 35vw;
+  margin-top: 2vw;
+  margin-left: 75px;
+}
+
+.libro #lap{
+  display: flex;
+  position: absolute;
+  font-size: 200px;
+  min-width: 240px;
+  min-height: 132px;
+  margin-top: 7vw;
+  margin-left: 40px;
+}
+
+.publi{
+  position: absolute;
+  display: wrap;
+  border-radius: 10px;
+  background-color: #121214;
+  width: 69.5%;
+  height: 24vw;
+  margin-top: 1vw;
+  margin-left: 14vw;
+  margin-bottom: 1vw;
+}
+
+.publi h1{
+  color: #fff;
+  padding:2vw 2vw 2vw 2vw;
+
+}
+
+.libron{
+  padding:25vw 2vw 1vw 52vw;
+  min-width: 134px;
+  min-height: 125px;
+}
+
+.libron a, i{
+  color: #121214;
+  text-decoration: none;
+}
+
+
+/*----------------CUERPO------------*/
+
+
+.panel-it{
+
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.panel-it a{
+  
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+article a:hover{
+  color: #De3448;
+  transition: all 700ms ease-out;
+}
+
+
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.panel-it  #items i{
+  font-size: 45px;
+  filter: invert(1);
+  color: rgb(0, 0, 0);
+}
+
+.panel-it  i:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+header h2{
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*             FIN DEL PANEL SUPERIOR                 */
+
+/*-----------------------------------------------------------------------*/
+
+
+
+#logo:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+
+
+
+
+.card {
+  position: absolute;
+  min-width: 210px;
+  margin-left:2vw; 
+  width: 25vw;
+  background: rgba( 245, 166, 35, 0.80 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+
+#cardi{
+  overflow: hidden;
+  text-align: center;
+}
+
+section h2 {
+  margin: .5em 0;
+}
+
+section p {
+  margin: 1em 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: .5em .2em;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  background: #314652;
+  width: 30px;
+  height: 30px;
+  line-height: 30px !important;
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+}
+
+ul li a:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #1E212D;
+  position: hidden;
+  border-radius: 8px;
+}
+
+
+footer p {
+  padding: 30px;
+  
+
+}
+
+footer a{
+  text-decoration: none;
+  color: #F2B035;
+}
+
+footer i{
+  color: #F2B035;
+}
+
+#perfil{
+  font-size:120px ;
+}
+
+#PER:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}

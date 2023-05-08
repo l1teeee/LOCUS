@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#1E212D;
+    
+}
+/*    INICIO PANEL SUPERIOR       */
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #11111127;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.panel-it{
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel-it a{
+    
+    text-decoration: none;
+    color: #F3F6FF;
+    font-size: 16px;
+}
+
+#items{
+    padding: 35px 35px;
+    padding-right: 35px;
+}
+
+#items1{
+    padding-top: 50px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+
+
+
+#items img{
+    
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+article a:hover{
+    color: #De3448;
+    transition: all 700ms ease-out;
+}
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel-it  #items i{
+    font-size: 45px;
+    filter: invert(1);
+    color: rgb(0, 0, 0);
+}
+
+.panel-it  i:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+header h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*             FIN DEL PANEL SUPERIOR                 */
+
+/*-----------------------------------------------------------------------*/
+
+
+td, h1{
+    color: #fff;
+
+}
+
+tbody{
+    width: 100%;
+}
+
+
+
+
+
+.encabezado{
+    width: 100%;
+    background: rgba( 74, 74, 74, 0.8 );
+    
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+color: #fff
+}
+
+.encabezado .titulos{
+    padding: 15px 15px 15px 15px; 
+}
+
+
+.cuerpo{
+}
+
+
+.cuerpo td{
+    text-align: justify;
+    padding: 15px 15px 15px 25px; 
+}

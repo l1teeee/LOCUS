@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #192E40;
+}
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.panel-it{
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel-it a{
+    
+    text-decoration: none;
+    color: #F3F6FF;
+    font-size: 16px;
+}
+
+#items{
+    padding: 35px 35px;
+    padding-right: 35px;
+}
+
+#items1{
+    padding-top: 50px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+#items img{
+    
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+article a:hover{
+    color: #De3448;
+    transition: all 700ms ease-out;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel-it  #items i{
+    font-size: 45px;
+    filter: invert(1);
+    color: rgb(0, 0, 0);
+}
+
+.panel-it  i:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+header h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor{
+    margin-top: 3vw;
+    display: flex;
+    min-width: 255px;
+    min-height: 160px;
+    background-color: black;
+    margin-left:37vw;
+    margin-right:37vw;
+    border-radius: 25px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.contenedor1{
+    flex-direction: row;
+    display: flex;
+    min-width: 175px;
+    min-height: 180px;
+    flex-flow: column;
+    background-color: #F2B035;
+    border-radius: 15px;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+.contenedor1 fieldset{
+    padding-left:15px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.contenedor1 #titu{
+    margin-top: 11px;
+
+    width: 20vw;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.contenedor1 textarea{
+    margin-top: 11px;
+    height: 8vw;
+    width: 20vw;
+    min-height: 70px;
+    min-width: 80px;
+    resize: none;
+    font-size: 17px;
+    padding: 9px 7px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+
+.contenedor1 .inputBox2 input{
+    width: 21vw;
+    height:35px;
+    background: #dbd9d0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    color: #000;
+}
+
+
+.contenedor1 .inputBox2 [type="submit"] {
+    height: 50px;
+    background: #131419;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+                2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor1 .inputBox2 [type="submit"]:hover {
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8),
+    inset -2px -2px 10px rgba(255, 255, 255, 0.05),
+    inset 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.lista{
+    padding-top: 8rem;
+    padding-left: 5rem;
+}
+
+.lista #repor{
+    border-radius: 5px;
+    color: black;
+    background-color: #fff;
+    padding:12px 12px 12px 12px;
+    text-decoration: none;
+}
+
+
+

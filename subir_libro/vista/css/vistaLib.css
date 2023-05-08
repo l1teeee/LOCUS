@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color:#1E212D;
+    
+}
+/*    INICIO PANEL SUPERIOR       */
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.panel-it{
+
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel-it a{
+    
+    text-decoration: none;
+    color: #F3F6FF;
+    font-size: 16px;
+}
+
+#items{
+    padding: 35px 35px;
+    padding-right: 35px;
+}
+
+#items1{
+    padding-top: 50px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+
+
+
+#items img{
+    
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+article a:hover{
+    color: #De3448;
+    transition: all 700ms ease-out;
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #11111127;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel-it  #items i{
+    font-size: 45px;
+    filter: invert(1);
+    color: rgb(0, 0, 0);
+}
+
+.panel-it  i:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+header h2{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*             FIN DEL PANEL SUPERIOR                 */
+
+/*-----------------------------------------------------------------------*/
+
+h2{
+    padding-top: 2vw;
+}
+
+textarea{
+    height: 8vw;
+    width: 36vw;
+    min-height: 70px;
+    min-width: 80px;
+    resize:none;
+    font-size: 17px;
+    padding: 9px 7px;
+    border-radius: 15px;
+    background: #dbd9d0;
+    border: none;
+
+}
+
+#logo:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.form{
+    padding: 1em;
+    margin-left: 29vw;
+    margin-bottom: 2vw;
+    width: 41vw;
+    min-height: 345px;
+    position: relative;
+    background: #2B3C64;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+                5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form a{
+    text-decoration: none;
+}
+
+.form h2{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.form .input{
+    text-align: left;
+    margin-top: 40px;
+    padding: 20px 20px;
+}
+
+.form .input .inputBox{
+    margin: 1vw 1vw;
+}
+
+.form .input .inputBox1{
+    margin: 1vw 1vw;
+}
+
+.form .input .inputBox select{
+    padding: 10px 6px;
+    margin-left: 15px;
+    border-radius: 6px;
+    background:#F2D230;
+    color: #000;
+    border:none;
+}
+
+
+
+.form .input .terminos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.form .input  #caja{
+    height: 19px;
+    width: 19px;
+    margin-left: 2vw;
+    padding-top: 50px;
+}
+
+.terminos #termi1{
+    margin-left: 15px;
+    color: white;
+}
+
+
+.form .input .inputBox1 label{
+    display: block;
+    color: #fff;
+    font-size: 4px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.form .input .inputBox1 input{
+    width: 35vw;
+    height:35px;
+    border-radius: 40px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form .input .inputBox label{
+    display: block;
+    color: #FFF;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.form .input .inputBox input{
+    width: 35vw;
+    height:35px;
+    background: #dbd9d0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 18px;
+    color: #000;
+}
+
+
+.form .input .inputBox2 input{
+    width: 35vw;
+    height:35px;
+    background: #dbd9d0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 18px;
+    color: #000;
+    margin-top: 20px ;
+    margin-left: 2vw;
+}
+
+
+.form .inputBox2 [type="submit"] {
+    margin-top: 30px;
+    height: 50px;
+    background: #131419;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+                2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.form .inputBox2 [type="submit"]:hover {
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8),
+    inset -2px -2px 10px rgba(255, 255, 255, 0.05),
+    inset 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
